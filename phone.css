@@ -1,0 +1,86 @@
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a {
+    
+    padding: 0px 7px 0px 7px;
+}
+
+/* Home section */
+
+#home h1 {
+   
+    font-size: 2.1rem;
+}
+#home p {
+   
+    font-size: 0.9rem;
+}
+.btn{
+    font-size: 0.7rem;
+}
+
+/* Services section */
+#services{
+    flex-direction: column;
+}
+
+
+
+
+/* Client section */
+
+
+#clients{
+    flex-wrap: wrap;
+}
+.client-logo img {
+    height: 56px;
+    width: 90px;
+  }
+  .client-logo {
+    padding: 11px;
+  }
+.o-clients {
+    
+    font-size: 3.6rem;
+    padding: 34px;
+    
+  }
+  .o-clients {
+    font-size: 2.4rem;
+    padding: 34px;
+    height: 84px;
+  }
+/* Contact us section */
+.o-contact {
+    
+    font-size: 3.5rem;
+   
+   
+  }
+  #contact-us input, #contact-us textarea {
+   
+    font-size: 0.8rem;
+  }
+  @media only screen and (max-width: 593px) {
+    .o-contact {
+        font-size: 2.9rem;
+      }
+  }
+  @media only screen and  (max-width:902px ) and (min-width:450px) {
+    .client-logo {
+        padding: 12px;
+      }
+      .client-logo img {
+        height: 72px;
+        width: 104px;
+      }
+  }
+  @media only screen and  (max-width:450px ) {
+    .client-logo img {
+        height: 53px;
+        width: 50px;
+    }
+  }
